@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #FFF;
 }
 
 .light {
@@ -265,7 +265,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/downloads-bg.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -312,6 +312,20 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
+    border: 1px solid #EF4647;
+    outline: 0;
+    color: #000;
+    background-color: #EF4647;
+}
+
+.btn-default2 {
+    border: 1px solid #EF4647;
+    color: #FFF;
+    background-color: #EF4647;
+}
+
+.btn-default2:hover,
+.btn-default2:focus {
     border: 1px solid #EF4647;
     outline: 0;
     color: #000;
